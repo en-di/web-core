@@ -8,7 +8,7 @@ within [fresh](https://fresh.deno.dev/) framework.
 Add plugin to `main.ts`:
 
 ```ts
-import emotion from "https://github.com/en-di/web-core/fresh/emotion/plugin.ts";
+import emotion from "https://raw.githubusercontent.com/en-di/web-core/main/fresh/emotion/plugin.ts";
 
 await start(manifest, {
   plugins: [emotion()],

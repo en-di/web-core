@@ -1,6 +1,6 @@
 import { Plugin, PluginRenderScripts } from "$fresh/server.ts";
-import createEmotionServer from "@emotion/server/create-instance";
-import { cache } from "@emotion/css";
+import createEmotionServer from "https://esm.sh/@emotion/server@11.10.0/create-instance";
+import { cache } from "https://esm.sh/@emotion/css@11.10.5";
 
 const { extractCritical } = createEmotionServer(cache);
 
