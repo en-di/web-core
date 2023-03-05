@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "$fresh/": "https://deno.land/x/fresh@1.1.2/",
+    "@emotion/css": "https://esm.sh/@emotion/css@11.10.5",
+    "@emotion/server/create-instance": "https://esm.sh/@emotion/server@11.10.0/create-instance"
+  }
+}
