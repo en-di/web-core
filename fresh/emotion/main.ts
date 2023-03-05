@@ -1,4 +1,4 @@
-import { hydrate, cache } from "@emotion/css";
+import { hydrate, cache } from "https://esm.sh/@emotion/css@11.10.5";
 export default function (state: string[]) {
   let el = document.getElementById(cache.key);
   if (!el) {
